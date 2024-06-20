@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+.header {
+  background-color: green;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+nav {
+  background-color: gray;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+}
+nav li {
+  list-style: none;
+}
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+.Section-2 {
+  background-color: rgb(245, 243, 243);
+}
+.button-1 {
+  background-color: orangered;
+  color: aliceblue;
+  font-size: 19px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 2px;
+}
+.Section-3 {
+  line-height: 35px;
+  padding: 20px;
+  text-align: center;
+  padding-top: 7%;
+  height: 40vh;
+  background-color: #f7e8e8;
+  font-size: 40px;
+}
+.Section-3 button {
+  background-color: #161616;
+  color: #f3f3f3;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.Section-3 button:hover {
+  background-color: gray;
+}
+.header-2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input,
+.form-group {
+  width: 100%;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group {
+  border-color: #007bff;
+}
+
+.form-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  margin-top: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition:   0.3s;
+}
+
+.form-button i {
+  margin-right: 8px;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+/* footer */
+.footer-b {
+  line-height: 35px;
+  padding: 20px;
+  text-align: center;
+}
+
+.form-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 200;
+  font-size: 27px;
+  cursor: pointer;
+  padding: 8px;
+  transition: background-color 0.3s;
+}
